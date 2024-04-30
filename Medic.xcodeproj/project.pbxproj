@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6889F95A2BE0B530001F67F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F9592BE0B530001F67F1 /* AppDelegate.swift */; };
+		6889F95C2BE0B530001F67F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F95B2BE0B530001F67F1 /* SceneDelegate.swift */; };
+		6889F95E2BE0B530001F67F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F95D2BE0B530001F67F1 /* ViewController.swift */; };
+		6889F9612BE0B530001F67F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6889F95F2BE0B530001F67F1 /* Main.storyboard */; };
+		6889F9632BE0B533001F67F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9622BE0B533001F67F1 /* Assets.xcassets */; };
+		6889F9662BE0B533001F67F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9642BE0B533001F67F1 /* LaunchScreen.storyboard */; };
+		6889F9712BE0B534001F67F1 /* MedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F9702BE0B534001F67F1 /* MedicTests.swift */; };
+		6889F97B2BE0B534001F67F1 /* MedicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F97A2BE0B534001F67F1 /* MedicUITests.swift */; };
+		6889F97D2BE0B534001F67F1 /* MedicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F97C2BE0B534001F67F1 /* MedicUITestsLaunchTests.swift */; };
+		6889F98C2BE0B63C001F67F1 /* Extionsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F98B2BE0B63C001F67F1 /* Extionsion.swift */; };
+		6889F98E2BE0B63E001F67F1 /* helperFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F98D2BE0B63E001F67F1 /* helperFunction.swift */; };
+		6889F9902BE0B734001F67F1 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F98F2BE0B734001F67F1 /* loginViewController.swift */; };
+		6889F9922BE0B758001F67F1 /* singUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889F9912BE0B758001F67F1 /* singUpViewController.swift */; };
+		6889F9CE2BE0BCB5001F67F1 /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9B22BE0BCB2001F67F1 /* Alegreya-Medium.ttf */; };
+		6889F9CF2BE0BCB5001F67F1 /* AlegreyaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9B32BE0BCB2001F67F1 /* AlegreyaSans-Medium.ttf */; };
+		6889F9D02BE0BCB5001F67F1 /* Alegreya-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9B42BE0BCB2001F67F1 /* Alegreya-Italic-VariableFont_wght.ttf */; };
+		6889F9D12BE0BCB5001F67F1 /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9B52BE0BCB2001F67F1 /* Alegreya-Black.ttf */; };
+		6889F9D22BE0BCB5001F67F1 /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9B62BE0BCB2001F67F1 /* Alegreya-Italic.ttf */; };
+		6889F9D32BE0BCB5001F67F1 /* AlegreyaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9B72BE0BCB2001F67F1 /* AlegreyaSans-Bold.ttf */; };
+		6889F9D42BE0BCB5001F67F1 /* Alegreya-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9B82BE0BCB2001F67F1 /* Alegreya-SemiBold.ttf */; };
+		6889F9D52BE0BCB5001F67F1 /* AlegreyaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9B92BE0BCB2001F67F1 /* AlegreyaSans-BoldItalic.ttf */; };
+		6889F9D62BE0BCB5001F67F1 /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9BA2BE0BCB3001F67F1 /* Alegreya-ExtraBold.ttf */; };
+		6889F9D72BE0BCB5001F67F1 /* AlegreyaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9BB2BE0BCB3001F67F1 /* AlegreyaSans-Regular.ttf */; };
+		6889F9D82BE0BCB5001F67F1 /* AlegreyaSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9BC2BE0BCB3001F67F1 /* AlegreyaSans-Thin.ttf */; };
+		6889F9D92BE0BCB5001F67F1 /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9BD2BE0BCB3001F67F1 /* Alegreya-MediumItalic.ttf */; };
+		6889F9DA2BE0BCB5001F67F1 /* Alegreya-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9BE2BE0BCB3001F67F1 /* Alegreya-ExtraBoldItalic.ttf */; };
+		6889F9DB2BE0BCB5001F67F1 /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9BF2BE0BCB3001F67F1 /* Alegreya-Bold.ttf */; };
+		6889F9DC2BE0BCB5001F67F1 /* AlegreyaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C02BE0BCB3001F67F1 /* AlegreyaSans-ExtraBoldItalic.ttf */; };
+		6889F9DD2BE0BCB5001F67F1 /* Alegreya-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C12BE0BCB4001F67F1 /* Alegreya-SemiBoldItalic.ttf */; };
+		6889F9DE2BE0BCB5001F67F1 /* AlegreyaSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C22BE0BCB4001F67F1 /* AlegreyaSans-BlackItalic.ttf */; };
+		6889F9DF2BE0BCB5001F67F1 /* AlegreyaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C32BE0BCB4001F67F1 /* AlegreyaSans-Light.ttf */; };
+		6889F9E02BE0BCB5001F67F1 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C42BE0BCB4001F67F1 /* Alegreya-Regular.ttf */; };
+		6889F9E12BE0BCB5001F67F1 /* AlegreyaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C52BE0BCB4001F67F1 /* AlegreyaSans-MediumItalic.ttf */; };
+		6889F9E22BE0BCB5001F67F1 /* Alegreya-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C62BE0BCB4001F67F1 /* Alegreya-VariableFont_wght.ttf */; };
+		6889F9E32BE0BCB5001F67F1 /* AlegreyaSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C72BE0BCB4001F67F1 /* AlegreyaSans-ThinItalic.ttf */; };
+		6889F9E42BE0BCB5001F67F1 /* AlegreyaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C82BE0BCB5001F67F1 /* AlegreyaSans-ExtraBold.ttf */; };
+		6889F9E52BE0BCB5001F67F1 /* AlegreyaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9C92BE0BCB5001F67F1 /* AlegreyaSans-LightItalic.ttf */; };
+		6889F9E62BE0BCB5001F67F1 /* AlegreyaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9CA2BE0BCB5001F67F1 /* AlegreyaSans-Italic.ttf */; };
+		6889F9E72BE0BCB5001F67F1 /* AlegreyaSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9CB2BE0BCB5001F67F1 /* AlegreyaSans-Black.ttf */; };
+		6889F9E82BE0BCB5001F67F1 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9CC2BE0BCB5001F67F1 /* Alegreya-BoldItalic.ttf */; };
+		6889F9E92BE0BCB5001F67F1 /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6889F9CD2BE0BCB5001F67F1 /* Alegreya-BlackItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6889F96D2BE0B534001F67F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6889F94E2BE0B530001F67F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6889F9552BE0B530001F67F1;
+			remoteInfo = Medic;
+		};
+		6889F9772BE0B534001F67F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6889F94E2BE0B530001F67F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6889F9552BE0B530001F67F1;
+			remoteInfo = Medic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6889F9562BE0B530001F67F1 /* Medic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6889F9592BE0B530001F67F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6889F95B2BE0B530001F67F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6889F95D2BE0B530001F67F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6889F9602BE0B530001F67F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6889F9622BE0B533001F67F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6889F9652BE0B533001F67F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6889F9672BE0B533001F67F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6889F96C2BE0B534001F67F1 /* MedicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6889F9702BE0B534001F67F1 /* MedicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicTests.swift; sourceTree = "<group>"; };
+		6889F9762BE0B534001F67F1 /* MedicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6889F97A2BE0B534001F67F1 /* MedicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicUITests.swift; sourceTree = "<group>"; };
+		6889F97C2BE0B534001F67F1 /* MedicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6889F98B2BE0B63C001F67F1 /* Extionsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extionsion.swift; sourceTree = "<group>"; };
+		6889F98D2BE0B63E001F67F1 /* helperFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperFunction.swift; sourceTree = "<group>"; };
+		6889F98F2BE0B734001F67F1 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		6889F9912BE0B758001F67F1 /* singUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singUpViewController.swift; sourceTree = "<group>"; };
+		6889F9B22BE0BCB2001F67F1 /* Alegreya-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Medium.ttf"; sourceTree = "<group>"; };
+		6889F9B32BE0BCB2001F67F1 /* AlegreyaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Medium.ttf"; sourceTree = "<group>"; };
+		6889F9B42BE0BCB2001F67F1 /* Alegreya-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6889F9B52BE0BCB2001F67F1 /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Black.ttf"; sourceTree = "<group>"; };
+		6889F9B62BE0BCB2001F67F1 /* Alegreya-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Italic.ttf"; sourceTree = "<group>"; };
+		6889F9B72BE0BCB2001F67F1 /* AlegreyaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Bold.ttf"; sourceTree = "<group>"; };
+		6889F9B82BE0BCB2001F67F1 /* Alegreya-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-SemiBold.ttf"; sourceTree = "<group>"; };
+		6889F9B92BE0BCB2001F67F1 /* AlegreyaSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6889F9BA2BE0BCB3001F67F1 /* Alegreya-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6889F9BB2BE0BCB3001F67F1 /* AlegreyaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Regular.ttf"; sourceTree = "<group>"; };
+		6889F9BC2BE0BCB3001F67F1 /* AlegreyaSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Thin.ttf"; sourceTree = "<group>"; };
+		6889F9BD2BE0BCB3001F67F1 /* Alegreya-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6889F9BE2BE0BCB3001F67F1 /* Alegreya-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6889F9BF2BE0BCB3001F67F1 /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
+		6889F9C02BE0BCB3001F67F1 /* AlegreyaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6889F9C12BE0BCB4001F67F1 /* Alegreya-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6889F9C22BE0BCB4001F67F1 /* AlegreyaSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6889F9C32BE0BCB4001F67F1 /* AlegreyaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AlegreyaSans-Light.ttf"; path = "../revison-Task/Font/AlegreyaSans-Light.ttf"; sourceTree = "<group>"; };
+		6889F9C42BE0BCB4001F67F1 /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
+		6889F9C52BE0BCB4001F67F1 /* AlegreyaSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6889F9C62BE0BCB4001F67F1 /* Alegreya-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6889F9C72BE0BCB4001F67F1 /* AlegreyaSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6889F9C82BE0BCB5001F67F1 /* AlegreyaSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6889F9C92BE0BCB5001F67F1 /* AlegreyaSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		6889F9CA2BE0BCB5001F67F1 /* AlegreyaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Italic.ttf"; sourceTree = "<group>"; };
+		6889F9CB2BE0BCB5001F67F1 /* AlegreyaSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Black.ttf"; sourceTree = "<group>"; };
+		6889F9CC2BE0BCB5001F67F1 /* Alegreya-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6889F9CD2BE0BCB5001F67F1 /* Alegreya-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6889F9EB2BE0BCFF001F67F1 /* AlegreyaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6889F9532BE0B530001F67F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6889F9692BE0B534001F67F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6889F9732BE0B534001F67F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6889F94D2BE0B530001F67F1 = {
+			isa = PBXGroup;
+			children = (
+				6889F9EA2BE0BCE3001F67F1 /* Font */,
+				6889F9C32BE0BCB4001F67F1 /* AlegreyaSans-Light.ttf */,
+				6889F9582BE0B530001F67F1 /* Medic */,
+				6889F96F2BE0B534001F67F1 /* MedicTests */,
+				6889F9792BE0B534001F67F1 /* MedicUITests */,
+				6889F9572BE0B530001F67F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6889F9572BE0B530001F67F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6889F9562BE0B530001F67F1 /* Medic.app */,
+				6889F96C2BE0B534001F67F1 /* MedicTests.xctest */,
+				6889F9762BE0B534001F67F1 /* MedicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6889F9582BE0B530001F67F1 /* Medic */ = {
+			isa = PBXGroup;
+			children = (
+				6889F9592BE0B530001F67F1 /* AppDelegate.swift */,
+				6889F95B2BE0B530001F67F1 /* SceneDelegate.swift */,
+				6889F95D2BE0B530001F67F1 /* ViewController.swift */,
+				6889F95F2BE0B530001F67F1 /* Main.storyboard */,
+				6889F98F2BE0B734001F67F1 /* loginViewController.swift */,
+				6889F9912BE0B758001F67F1 /* singUpViewController.swift */,
+				6889F98B2BE0B63C001F67F1 /* Extionsion.swift */,
+				6889F98D2BE0B63E001F67F1 /* helperFunction.swift */,
+				6889F9622BE0B533001F67F1 /* Assets.xcassets */,
+				6889F9642BE0B533001F67F1 /* LaunchScreen.storyboard */,
+				6889F9672BE0B533001F67F1 /* Info.plist */,
+			);
+			path = Medic;
+			sourceTree = "<group>";
+		};
+		6889F96F2BE0B534001F67F1 /* MedicTests */ = {
+			isa = PBXGroup;
+			children = (
+				6889F9702BE0B534001F67F1 /* MedicTests.swift */,
+			);
+			path = MedicTests;
+			sourceTree = "<group>";
+		};
+		6889F9792BE0B534001F67F1 /* MedicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6889F97A2BE0B534001F67F1 /* MedicUITests.swift */,
+				6889F97C2BE0B534001F67F1 /* MedicUITestsLaunchTests.swift */,
+			);
+			path = MedicUITests;
+			sourceTree = "<group>";
+		};
+		6889F9EA2BE0BCE3001F67F1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6889F9B52BE0BCB2001F67F1 /* Alegreya-Black.ttf */,
+				6889F9CD2BE0BCB5001F67F1 /* Alegreya-BlackItalic.ttf */,
+				6889F9BF2BE0BCB3001F67F1 /* Alegreya-Bold.ttf */,
+				6889F9CC2BE0BCB5001F67F1 /* Alegreya-BoldItalic.ttf */,
+				6889F9BA2BE0BCB3001F67F1 /* Alegreya-ExtraBold.ttf */,
+				6889F9BE2BE0BCB3001F67F1 /* Alegreya-ExtraBoldItalic.ttf */,
+				6889F9B42BE0BCB2001F67F1 /* Alegreya-Italic-VariableFont_wght.ttf */,
+				6889F9B62BE0BCB2001F67F1 /* Alegreya-Italic.ttf */,
+				6889F9B22BE0BCB2001F67F1 /* Alegreya-Medium.ttf */,
+				6889F9BD2BE0BCB3001F67F1 /* Alegreya-MediumItalic.ttf */,
+				6889F9C42BE0BCB4001F67F1 /* Alegreya-Regular.ttf */,
+				6889F9B82BE0BCB2001F67F1 /* Alegreya-SemiBold.ttf */,
+				6889F9C12BE0BCB4001F67F1 /* Alegreya-SemiBoldItalic.ttf */,
+				6889F9C62BE0BCB4001F67F1 /* Alegreya-VariableFont_wght.ttf */,
+				6889F9CB2BE0BCB5001F67F1 /* AlegreyaSans-Black.ttf */,
+				6889F9C22BE0BCB4001F67F1 /* AlegreyaSans-BlackItalic.ttf */,
+				6889F9B72BE0BCB2001F67F1 /* AlegreyaSans-Bold.ttf */,
+				6889F9B92BE0BCB2001F67F1 /* AlegreyaSans-BoldItalic.ttf */,
+				6889F9C82BE0BCB5001F67F1 /* AlegreyaSans-ExtraBold.ttf */,
+				6889F9C02BE0BCB3001F67F1 /* AlegreyaSans-ExtraBoldItalic.ttf */,
+				6889F9CA2BE0BCB5001F67F1 /* AlegreyaSans-Italic.ttf */,
+				6889F9EB2BE0BCFF001F67F1 /* AlegreyaSans-Light.ttf */,
+				6889F9C92BE0BCB5001F67F1 /* AlegreyaSans-LightItalic.ttf */,
+				6889F9B32BE0BCB2001F67F1 /* AlegreyaSans-Medium.ttf */,
+				6889F9C52BE0BCB4001F67F1 /* AlegreyaSans-MediumItalic.ttf */,
+				6889F9BB2BE0BCB3001F67F1 /* AlegreyaSans-Regular.ttf */,
+				6889F9BC2BE0BCB3001F67F1 /* AlegreyaSans-Thin.ttf */,
+				6889F9C72BE0BCB4001F67F1 /* AlegreyaSans-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6889F9552BE0B530001F67F1 /* Medic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6889F9802BE0B534001F67F1 /* Build configuration list for PBXNativeTarget "Medic" */;
+			buildPhases = (
+				6889F9522BE0B530001F67F1 /* Sources */,
+				6889F9532BE0B530001F67F1 /* Frameworks */,
+				6889F9542BE0B530001F67F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medic;
+			productName = Medic;
+			productReference = 6889F9562BE0B530001F67F1 /* Medic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6889F96B2BE0B534001F67F1 /* MedicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6889F9832BE0B534001F67F1 /* Build configuration list for PBXNativeTarget "MedicTests" */;
+			buildPhases = (
+				6889F9682BE0B534001F67F1 /* Sources */,
+				6889F9692BE0B534001F67F1 /* Frameworks */,
+				6889F96A2BE0B534001F67F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6889F96E2BE0B534001F67F1 /* PBXTargetDependency */,
+			);
+			name = MedicTests;
+			productName = MedicTests;
+			productReference = 6889F96C2BE0B534001F67F1 /* MedicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6889F9752BE0B534001F67F1 /* MedicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6889F9862BE0B534001F67F1 /* Build configuration list for PBXNativeTarget "MedicUITests" */;
+			buildPhases = (
+				6889F9722BE0B534001F67F1 /* Sources */,
+				6889F9732BE0B534001F67F1 /* Frameworks */,
+				6889F9742BE0B534001F67F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6889F9782BE0B534001F67F1 /* PBXTargetDependency */,
+			);
+			name = MedicUITests;
+			productName = MedicUITests;
+			productReference = 6889F9762BE0B534001F67F1 /* MedicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6889F94E2BE0B530001F67F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6889F9552BE0B530001F67F1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6889F96B2BE0B534001F67F1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6889F9552BE0B530001F67F1;
+					};
+					6889F9752BE0B534001F67F1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6889F9552BE0B530001F67F1;
+					};
+				};
+			};
+			buildConfigurationList = 6889F9512BE0B530001F67F1 /* Build configuration list for PBXProject "Medic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6889F94D2BE0B530001F67F1;
+			productRefGroup = 6889F9572BE0B530001F67F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6889F9552BE0B530001F67F1 /* Medic */,
+				6889F96B2BE0B534001F67F1 /* MedicTests */,
+				6889F9752BE0B534001F67F1 /* MedicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6889F9542BE0B530001F67F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6889F9E32BE0BCB5001F67F1 /* AlegreyaSans-ThinItalic.ttf in Resources */,
+				6889F9662BE0B533001F67F1 /* LaunchScreen.storyboard in Resources */,
+				6889F9D92BE0BCB5001F67F1 /* Alegreya-MediumItalic.ttf in Resources */,
+				6889F9CF2BE0BCB5001F67F1 /* AlegreyaSans-Medium.ttf in Resources */,
+				6889F9D52BE0BCB5001F67F1 /* AlegreyaSans-BoldItalic.ttf in Resources */,
+				6889F9632BE0B533001F67F1 /* Assets.xcassets in Resources */,
+				6889F9612BE0B530001F67F1 /* Main.storyboard in Resources */,
+				6889F9E12BE0BCB5001F67F1 /* AlegreyaSans-MediumItalic.ttf in Resources */,
+				6889F9DC2BE0BCB5001F67F1 /* AlegreyaSans-ExtraBoldItalic.ttf in Resources */,
+				6889F9E62BE0BCB5001F67F1 /* AlegreyaSans-Italic.ttf in Resources */,
+				6889F9D22BE0BCB5001F67F1 /* Alegreya-Italic.ttf in Resources */,
+				6889F9D82BE0BCB5001F67F1 /* AlegreyaSans-Thin.ttf in Resources */,
+				6889F9D62BE0BCB5001F67F1 /* Alegreya-ExtraBold.ttf in Resources */,
+				6889F9D72BE0BCB5001F67F1 /* AlegreyaSans-Regular.ttf in Resources */,
+				6889F9E02BE0BCB5001F67F1 /* Alegreya-Regular.ttf in Resources */,
+				6889F9DA2BE0BCB5001F67F1 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
+				6889F9D42BE0BCB5001F67F1 /* Alegreya-SemiBold.ttf in Resources */,
+				6889F9E22BE0BCB5001F67F1 /* Alegreya-VariableFont_wght.ttf in Resources */,
+				6889F9E92BE0BCB5001F67F1 /* Alegreya-BlackItalic.ttf in Resources */,
+				6889F9CE2BE0BCB5001F67F1 /* Alegreya-Medium.ttf in Resources */,
+				6889F9E82BE0BCB5001F67F1 /* Alegreya-BoldItalic.ttf in Resources */,
+				6889F9DD2BE0BCB5001F67F1 /* Alegreya-SemiBoldItalic.ttf in Resources */,
+				6889F9DB2BE0BCB5001F67F1 /* Alegreya-Bold.ttf in Resources */,
+				6889F9D12BE0BCB5001F67F1 /* Alegreya-Black.ttf in Resources */,
+				6889F9D32BE0BCB5001F67F1 /* AlegreyaSans-Bold.ttf in Resources */,
+				6889F9D02BE0BCB5001F67F1 /* Alegreya-Italic-VariableFont_wght.ttf in Resources */,
+				6889F9E52BE0BCB5001F67F1 /* AlegreyaSans-LightItalic.ttf in Resources */,
+				6889F9DF2BE0BCB5001F67F1 /* AlegreyaSans-Light.ttf in Resources */,
+				6889F9DE2BE0BCB5001F67F1 /* AlegreyaSans-BlackItalic.ttf in Resources */,
+				6889F9E72BE0BCB5001F67F1 /* AlegreyaSans-Black.ttf in Resources */,
+				6889F9E42BE0BCB5001F67F1 /* AlegreyaSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6889F96A2BE0B534001F67F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6889F9742BE0B534001F67F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6889F9522BE0B530001F67F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6889F9922BE0B758001F67F1 /* singUpViewController.swift in Sources */,
+				6889F95E2BE0B530001F67F1 /* ViewController.swift in Sources */,
+				6889F98E2BE0B63E001F67F1 /* helperFunction.swift in Sources */,
+				6889F9902BE0B734001F67F1 /* loginViewController.swift in Sources */,
+				6889F95A2BE0B530001F67F1 /* AppDelegate.swift in Sources */,
+				6889F95C2BE0B530001F67F1 /* SceneDelegate.swift in Sources */,
+				6889F98C2BE0B63C001F67F1 /* Extionsion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6889F9682BE0B534001F67F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6889F9712BE0B534001F67F1 /* MedicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6889F9722BE0B534001F67F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6889F97B2BE0B534001F67F1 /* MedicUITests.swift in Sources */,
+				6889F97D2BE0B534001F67F1 /* MedicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6889F96E2BE0B534001F67F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6889F9552BE0B530001F67F1 /* Medic */;
+			targetProxy = 6889F96D2BE0B534001F67F1 /* PBXContainerItemProxy */;
+		};
+		6889F9782BE0B534001F67F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6889F9552BE0B530001F67F1 /* Medic */;
+			targetProxy = 6889F9772BE0B534001F67F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6889F95F2BE0B530001F67F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6889F9602BE0B530001F67F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6889F9642BE0B533001F67F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6889F9652BE0B533001F67F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6889F97E2BE0B534001F67F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6889F97F2BE0B534001F67F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6889F9812BE0B534001F67F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Medic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.Medic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6889F9822BE0B534001F67F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Medic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.Medic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6889F9842BE0B534001F67F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.MedicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medic";
+			};
+			name = Debug;
+		};
+		6889F9852BE0B534001F67F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.MedicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medic";
+			};
+			name = Release;
+		};
+		6889F9872BE0B534001F67F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.MedicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medic;
+			};
+			name = Debug;
+		};
+		6889F9882BE0B534001F67F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.MedicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6889F9512BE0B530001F67F1 /* Build configuration list for PBXProject "Medic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6889F97E2BE0B534001F67F1 /* Debug */,
+				6889F97F2BE0B534001F67F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6889F9802BE0B534001F67F1 /* Build configuration list for PBXNativeTarget "Medic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6889F9812BE0B534001F67F1 /* Debug */,
+				6889F9822BE0B534001F67F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6889F9832BE0B534001F67F1 /* Build configuration list for PBXNativeTarget "MedicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6889F9842BE0B534001F67F1 /* Debug */,
+				6889F9852BE0B534001F67F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6889F9862BE0B534001F67F1 /* Build configuration list for PBXNativeTarget "MedicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6889F9872BE0B534001F67F1 /* Debug */,
+				6889F9882BE0B534001F67F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6889F94E2BE0B530001F67F1 /* Project object */;
+}
